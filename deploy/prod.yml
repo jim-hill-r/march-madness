@@ -1,0 +1,7 @@
+applications:
+- name: march-madness
+  host: jim-hill-r-march-madness
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+  memory: 256M
+  env:
+    CACHE_NUGET_PACKAGES: false
